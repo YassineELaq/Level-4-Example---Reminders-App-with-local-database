@@ -33,10 +33,8 @@ class MainActivity : AppCompatActivity() {
         reminders.add(Reminder("Eten"))
         reminders.add(Reminder("Huiswerk maken"))
         reminders.add(Reminder("Uitgaan"))
-
         initViews()
         fab.setOnClickListener { startAddActivity() }
-
 
     }
     private fun startAddActivity() {
@@ -102,3 +100,5 @@ class MainActivity : AppCompatActivity() {
 
 
 }
+
+
