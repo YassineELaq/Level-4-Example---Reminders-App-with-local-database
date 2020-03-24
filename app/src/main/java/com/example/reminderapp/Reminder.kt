@@ -13,6 +13,6 @@ data class Reminder(
     var reminderText: String,
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo("id")
-    private var id:Int? = null
+    var id:Int? = null
 
 ): Parcelable

@@ -17,14 +17,14 @@ class AddReminderActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_reminder)
         setSupportActionBar(toolbar)
-        getSupportActionBar()
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+//        getSupportActionBar()
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
 
         fab.setOnClickListener {
             onSaveClick()
              }
-        toolbar.setOnClickListener { startAddActivity() }
+        //toolbar.setOnClickListener { startAddActivity() }
     }
 
 
